@@ -1,0 +1,173 @@
+.mainHeading{
+  font-family: monospace;
+  margin-bottom: 0;
+  padding-top: 30px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.555);
+}
+
+.mainHeading:hover{
+  color: rgba(23, 133, 23, 0.863);
+}
+
+.paragraphText{
+  padding-top: 10px;
+  color: rgba(255, 255, 255, 0.281);
+}
+
+.navbar{
+  background-image: linear-gradient(to bottom,rgb(0, 0, 0),rgba(0, 0, 0, 0.308),rgba(0, 0, 0, 0));
+  height: 60px;
+}
+
+.navbrand{
+  text-decoration: none;
+  color: rgb(19, 138, 19);
+}
+
+.navbrand:hover{
+  text-decoration: none;
+  color: rgb(66, 224, 66);
+}
+
+.cardHeading{
+  padding: 30px;
+}
+
+.signUpBox{
+  text-align: center;
+  margin: 0 auto;
+}
+
+.signUpCard{
+  color:  rgba(233, 233, 233, 0.712);
+  display: inline-block;
+  margin: 60px 50px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.055);
+  width: 250px;
+  height: 300px;
+  border-radius: 5px;
+}
+
+.signUpCard:hover{
+  width: 255px;
+  height: 305px;
+  color: rgb(255, 255, 255);
+}
+
+.inputBox{
+  margin: 15px auto 10px;
+  display: block;
+  opacity: 60%;
+  height: 40px;
+  width: 200px;
+  border-radius: 10px;
+  border: none;
+}
+
+.btn{
+  margin-top: 15px;
+}
+
+.btn-block{
+  border: none;
+}
+
+.createCard{
+  margin : 30px auto;
+  text-align: center;
+  width: 40%;
+  padding: 1% 5%;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.116);
+}
+
+.formLabel{
+  padding-top: 7px;
+  color: rgba(184, 183, 183, 0.637);
+}
+
+.createButton{
+  position: absolute;
+  right: 8%;
+  bottom: 150px;
+  height: 250px;
+  width: 130px;
+  border-radius: 25px;
+  background-color: rgba(0, 0, 0, 0.897);
+  border: none;
+  color: rgba(23, 133, 23, 0.863);
+}
+
+.createButton:hover{
+  color: rgb(66, 224, 66);
+  border: 0.5px solid rgba(23, 133, 23, 0.863);
+  background-color: rgb(19, 19, 19);
+  font-size: large;
+}
+
+.jumbotron{
+  width:50%;
+  margin: 50px auto;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.308);
+}
+
+.submitForm{
+  margin: 50px auto 200px;
+  display: block;
+}
+
+.formTable{
+  color : black;
+  background-color: rgba(255, 255, 255, 0.185);
+  width: 90%;
+  margin: 15px auto;
+  line-height: 35px;
+  border-radius: 10px;
+}
+
+.formInput{
+  width : 300px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgba(248, 248, 248, 0.678);
+}
+
+@media screen and (max-width: 650px){
+  .signUpCard{
+    margin: 30px 40px;
+  }
+
+  .createCard{
+    margin : 30px auto;
+    text-align: center;
+    width: 70%;
+    padding: 1% 5%;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.014);
+  }
+  
+  .createButton{
+    position: absolute;
+    right: 20px;
+    bottom: 75px;
+    height: 300px;
+    width: 40px;
+    font-size: x-small;
+  }
+  
+  .createButton:hover{
+    color: rgb(66, 224, 66);
+    border: 0.5px solid rgba(23, 133, 23, 0.863);
+    background-color: rgb(19, 19, 19);
+    font-weight: 700;
+    text-transform: lowercase;
+    font-size: x-small;
+  }
+}
+
+.test{
+  height: 800px;
+}

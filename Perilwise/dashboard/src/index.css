@@ -1,0 +1,18 @@
+body{
+  background-color: rgb(17, 17, 17);
+  font-family: 'Merriweather', sans-serif;
+  font-weight: 400;
+  transition: 1s ease-in-out;
+  text-align: center;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.315), rgba(101, 136, 101, 0.301));
+}
+
+
+tr,td{
+  padding: 20px;
+}
+
+#submittedFile{
+ font-family: monospace;
+ font-size: large;
+}
